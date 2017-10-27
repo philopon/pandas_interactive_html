@@ -1,0 +1,19 @@
+@import "node_modules/normalize-css/normalize";
+
+html,
+body,
+.mount-point,
+.content-wrapper {
+    height: 100%;
+}
+
+.cell {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.image-cell {
+    justify-content: center;
+}
